@@ -58,3 +58,31 @@ ul a:hover {
     height: 500px;
     margin: 50px;
 }
+
+/** cats **/
+
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cats img {
+    height: 300px;
+    width: 500px;
+    margin: 40px;
+    border: solid  2px;
+    border-color: lightgray;
+}
+
+/** footer **/
+footer {
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    padding: 1em;
+    letter-spacing: .45em;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 1 rem;
+}
